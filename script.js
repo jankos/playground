@@ -1,3 +1,7 @@
-import logman from "./scripts/logman.js";
+import data from './data.json' assert { type: 'json' };
 
-logman();
+import logman from './scripts/logman.js';
+import { shuffleDeck } from './scripts/helpers.js';
+
+logman(data);
+shuffleDeck(data.deck);
