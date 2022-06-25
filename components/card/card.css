@@ -1,0 +1,16 @@
+.card {
+  font-size: 36px;
+  display: inline-block;
+  padding: 20px;
+  height: 100px;
+  width: 50px;
+  background: #fff;
+}
+
+.value {
+  padding: 10px 0 10px 10px;
+}
+
+.suit {
+  padding: 10px 10px 10px 0;
+}

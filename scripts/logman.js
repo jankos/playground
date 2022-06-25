@@ -1,3 +1,3 @@
 export default function logman(data){
-  console.log('Logman', data);
+  console.log('Data: ', data);
 }
