@@ -6,3 +6,8 @@ body {
   background: #eee;
   color: #333;
 }
+
+.container {
+  margin: 0;
+  padding: 10px;
+}
