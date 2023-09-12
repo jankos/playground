@@ -1,0 +1,15 @@
+{
+  "name": "slide",
+  "version": "0.0.0",
+  "description": "UI concept with scroll/slide",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jan Kos <janis.koselevs@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "serve": "^14.2.0"
+  }
+}
