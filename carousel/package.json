@@ -1,0 +1,15 @@
+{
+  "name": "carousel",
+  "version": "0.0.0",
+  "description": "Image carousel with minimal JS using mostly modern CSS",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jan Kos <janis.koselevs@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "serve": "^14.2.0"
+  }
+}
