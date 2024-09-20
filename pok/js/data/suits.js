@@ -2,22 +2,26 @@ const suits = {
   "s": {
     "name":"spades",
     "color": "#000",
-    "symbol": "&spades;"
+    "symbol": "&spades;",
+    "char": "♠"
   },
   "c": {
     "name": "clubs",
     "color": "#000",
-    "symbol": "&clubs;"
+    "symbol": "&clubs;",
+    "char": "♣"
   },
   "h": {
     "name": "hearts",
     "color": "#f00",
-    "symbol": "&hearts;"
+    "symbol": "&hearts;",
+    "char": "♥"
   },
   "d": {
     "name": "diamonds",
     "color": "#f00",
-    "symbol": "&diams;"
+    "symbol": "&diams;",
+    "char": "♦"
   }
 };
 

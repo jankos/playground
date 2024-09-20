@@ -5,16 +5,30 @@
     <meta name="viewport" content="width=device-width" />
     <link rel="icon" href="/img/favicon.ico" />
     <link rel="stylesheet" href="index.css" />
-    <script defer type="module" src="index.js"></script>
+    <script type="module" src="index.js"></script>
     <title>Pok</title>
+    <!-- Card template -->
+    <template id="card">
+      <span class="card"></span>
+    </template>
   </head>
   <body>
     <div class="container">
-      <header>
+      <header class="header">
         <h1>Pok</h1>
       </header>
-      <main id="content"></main>
-      <footer>
+      <main id="content" class="content">
+        <div id="npc"></div>
+        <div id="table"></div>
+        <div id="player"></div>
+        <div>
+          <button>Call</button>
+          <button>Raise</button>
+          <button>Check</button>
+          <button>Fold</button>
+        </div>
+      </main>
+      <footer class="footer">
         <p>&copy; 2024 JanKos</p>
       </footer>
     </div>
