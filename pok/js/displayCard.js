@@ -11,6 +11,6 @@ export function displayCard(container, cards, suits, card) {
   console.log(suits);
   let suit = suits.get(c.suit);
 
-  result.textContent = `${c.rank} ${suit.char}`;
+  result.innerHTML = `${c.rank} <span style="color: ${suit.color}">${suit.char}</span>`;
   target.appendChild(result);
 }
